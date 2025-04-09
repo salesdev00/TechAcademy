@@ -1,0 +1,88 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    padding: 10rem;
+    margin: 2rem 0;
+}
+
+/* Certifique-se de que a div tenha um layout flexível */
+.imagem-container {
+    display: flex;
+    gap: 10px; /* Espaçamento entre as imagens */
+    justify-content: center; /* Centraliza as imagens na tela */
+    flex-wrap: wrap; /* Permite que as imagens se ajustem em diferentes linhas se o espaço for pequeno */
+}
+
+.imagem-container img {
+    max-width: 100%; /* Garante que as imagens não ultrapassem o tamanho do container */
+    height: auto; /* Mantém a proporção das imagens */
+    width: 200px; /* Tamanho fixo para as imagens, você pode ajustar conforme necessário */
+}
+
+/* Estilo para o footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+footer .social-icons {
+    margin-top: 10px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 30px;
+    margin: 0 15px;
+    text-decoration: none;
+}
+
+footer .social-icons a:hover {
+    opacity: 0.7;
+}
